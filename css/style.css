@@ -1,0 +1,109 @@
+/*Cajas */
+
+div{
+	width: 100px;
+	height: 100px;
+	background: pink;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	float: bottom;
+}
+/*
+.caja{
+	position: relative;
+	top: ;
+	bottom: ;
+	right: ;
+	left: ;
+}
+*/
+/*
+.caja{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+*/
+/*
+.caja{
+	position: fixed;
+	top: 200px;
+	bottom: ;
+	right: ;
+	left: 250px;
+}*/
+
+.caja{
+	position: static;
+	top: 200px;
+	bottom: ;
+	right: ;
+	left: 250px;
+}
+/*
+.caja_padre{
+	width: 500px;
+	height: 500px;
+	background: #90FF3F;
+	position: relative;
+
+}
+
+
+*/
+
+img{
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+.clear{
+
+	clear: both;
+}
+
+h1+h2{
+	color: teal;
+}
+
+p > a{
+	color: red;
+}
+
+p[class]{
+	color: peru;
+}
+
+p[class~=p]{
+	color: yellow;
+
+	}
+
+*[lang=es]{
+	color: orchid;
+}
+
+a[href="https://www.amazon.com.mx/"]{
+	color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
